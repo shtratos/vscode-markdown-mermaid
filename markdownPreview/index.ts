@@ -8,6 +8,7 @@ function init() {
 
     const config = {
         startOnLoad: false,
+        logLevel: 3,
         theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
             ? darkModeTheme ?? 'dark'
             : lightModeTheme ?? 'default'

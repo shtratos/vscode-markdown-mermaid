@@ -33,5 +33,5 @@ module.exports = /** @type {webview.WebpackConfig} */ {
     performance: {
         hints: false
     },
-    devtool: 'nosources-source-map' // create a source map that points to the original source file
+    devtool: 'inline-source-map' // create a source map that points to the original source file
 };

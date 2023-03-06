@@ -5,7 +5,8 @@
             "es2020",
             "DOM",
             "DOM.Iterable"
-        ]
+        ],
+        "sourceMap": true
     },
     "exclude": [
         "node_modules"
